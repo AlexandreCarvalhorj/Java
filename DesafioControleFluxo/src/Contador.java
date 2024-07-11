@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Contador {
     public static void main(String[] args) throws Exception {
         try {
+            @SuppressWarnings("resource")
             Scanner scanner = new Scanner(System.in);
             System.out.println("Informe o primeiro parâmetro:");
             int parameter1 = scanner.nextInt();
